@@ -1,0 +1,9 @@
+asyncio
+msgraph-sdk
+beautifulsoup4
+lxml
+urllib3
+robotframework-retryfailed
+O365
+bleach
+docx2txt
