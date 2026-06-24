@@ -34,8 +34,9 @@ Login
     [Documentation]             Login to Salesforce instance
     GoTo                        ${login_url}
     TypeText                    Username                    ${username}                 delay=1
+    ClickText                   Log In to Sandbox
     TypeText                    Password                    ${password}
-    ClickText                   Log In
+    ClickText                   Log In to Sandbox
     # We'll check if variable ${secret} is given. If yes, fill the MFA dialog.
     # If not, MFA is not expected.
     # ${secret} is ${None} unless specifically given.
