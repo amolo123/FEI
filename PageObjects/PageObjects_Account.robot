@@ -638,8 +638,7 @@ Creating a new Account with Save and new
     Sleep                       5sec
     UseModal                    Off
     ClickText                   Accounts
-    Sleep                       60s
-    VerifyText                  Recently Viewed             anchor=span
+    VerifyText                  Recently Viewed             anchor=span                 timeout=60s
     ${acc_1}=                   GetText                     //th[@aria-label\='Account Name']/ancestor::table//tbody/tr[1]/th[1]//a
     Log To Console              ${acc_1}
     ${acc_2}=                   GetText                     //th[@aria-label\='Account Name']/ancestor::table//tbody/tr[2]/th[1]//a
