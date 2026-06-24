@@ -666,7 +666,7 @@ Creation of Account Cancel
     Home
     ClickText                   Account
     VerifyText                  Recently Viewed             anchor=span                 timeout=40s
-    ClickElement                //div[text()\="New"]
+    ClickElement                //div[text()\="Ne"]
 
     UseModal                    On
     VerifyText                  New Account
