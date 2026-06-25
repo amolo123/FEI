@@ -76,3 +76,9 @@ Verify Insurance Item, Contact, Sanction, on Account
     Creation of Account unchecked Mailing same as Billing address
     Verify Insurance Item Contact Sanction on Account
 
+Verify Insurance Item, Contact, Sanction, on Account2
+    # Author = Akshay Verma
+    #TC=94261
+    [Documentation]             Validate the Buttons acc - Follow & Edit
+    [Tags]                      Smoke_Test
+    Home
